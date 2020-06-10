@@ -7,7 +7,7 @@ Why Group Normalization works?
 
 ## Overview
 
-Group Normalization is a normalization technique where channel statistics are computed over a group of channels. Group Norm becomes Layer Norm when all channels are used to compute mean and SD and becomes Instance Norm when only a single channel is used to compute mean and SD. The main claim of Group Norm is that adjacent channels are not independent.<br>
+Group Normalization is a normalization technique where adjacent channel statistics are used to normalize the channels present in that particular group. Group normalization becomes Layer normalization when all channels are used to compute mean and standard deviation and becomes Instance normalization when only a single channel is used to compute mean and standard deviation. The main claim of Group Norm is that adjacent channels are not independent.<br>
 I wanted to investigate the fact whether Group Norm really takes advantage of adjacent channel statistics. Turns out it does.
 
 ## Experiment
