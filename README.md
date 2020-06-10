@@ -28,7 +28,7 @@ Compared to Vanilla Group Norm on the left, Group Shuffle Norm(right) picks chan
 | Group Normalization | 96.17% | 85.38% |  
 | Group Shuffle Normalization| 90.38% | 82.36% |
 
-![alt-text-1](images/cost.png "cost") ![alt-text-2](images/trainAcc.png "trainacc")![alt-text-3](testAcc.png "testacc")<br>
+![alt-text-1](images/cost.png "cost") ![alt-text-2](images/trainAcc.png "trainacc")![alt-text-3](images/testAcc.png "testacc")<br>
 Hence Group Norm takes advantage of nearby channels which in-turn gives better results.
 
 ## References
