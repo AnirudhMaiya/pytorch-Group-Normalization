@@ -6,9 +6,9 @@ def ShuffledArray(G,C):
   a = []
   count = 1
   if(G == 1):
-    sG = C
-  elif(G == C):
     sG = 1
+  elif(G == C):
+    sG = C
   else:
     sG = G
   for i in range(1,C+1):
